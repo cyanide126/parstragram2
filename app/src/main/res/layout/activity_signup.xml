@@ -12,7 +12,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/etUsername"
+        android:id="@+id/etUsername2"
         android:layout_weight="1"
         android:ems="10"
         android:hint="username" />
@@ -20,7 +20,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/etPassword"
+        android:id="@+id/etPassword2"
         android:layout_weight="1"
         android:ems="10"
         android:hint="password"
@@ -29,14 +29,9 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnSignUp2"
         android:layout_weight="1"
-        android:text="Login" />
+        android:text="Sign Up" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnSignUp"
-        android:layout_weight="1"
-        android:text="Click here to sign Up" />
+
 </LinearLayout>
